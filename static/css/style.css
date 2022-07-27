@@ -6,7 +6,7 @@
     scroll-behavior: smooth;
 }
 
-body{
+body {
     font-family: sans-serif;
     background-color: var(--bg-color);
 }
@@ -16,10 +16,10 @@ body{
     --text1-color: #ffff;
     --bg-color: rgba(31, 39, 50, 0.81);
     --hr-color: #4E555F;
-    --container-bgc:#05152e;
-    --txt-color1:#D7D7D7;
-    --card-bg-color:#1F2732;
-    --main-font-family:Cormorant Garamond;
+    --container-bgc: #05152e;
+    --txt-color1: #D7D7D7;
+    --card-bg-color: #1F2732;
+    --main-font-family: Cormorant Garamond;
 }
 
 .container {
@@ -109,6 +109,7 @@ nav ul li a {
     text-decoration: none;
     color: var(--text1-color);
 }
+
 nav ul li a span {
     color: #D1B06B;
 }
@@ -117,7 +118,7 @@ nav .call-flex {
     display: flex;
 }
 
-nav .call-flex span{
+nav .call-flex span {
     margin-top: 10px;
 }
 
@@ -159,20 +160,20 @@ nav .call-flex i {
     position: relative;
 }
 
-.header-flex .header-text{
+.header-flex .header-text {
     position: absolute;
     top: 260px;
     left: 50px;
     width: 710px;
 }
 
-.header-flex .header-text  h3{
+.header-flex .header-text h3 {
     line-height: 75px;
     font-size: 55px;
     font-family: none;
 }
 
-.header-flex .header-text  p{
+.header-flex .header-text p {
     font-family: sans-serif;
     line-height: 35px;
     font-size: 27px;
@@ -182,7 +183,7 @@ nav .call-flex i {
     font-family: none;
 }
 
-.header-flex .header-text a{
+.header-flex .header-text a {
     text-decoration: none;
     color: black;
     padding: 25px 40px;
@@ -190,7 +191,7 @@ nav .call-flex i {
     font-size: 25px;
 }
 
-.header-flex .person-img{
+.header-flex .person-img {
     position: absolute;
     top: 165px;
     left: 878px;
@@ -199,88 +200,90 @@ nav .call-flex i {
 /* ########### header ############ */
 /* ########### Attorney ############ */
 
-.attorney-page{
+.attorney-page {
     position: relative;
     display: flex;
     padding: 80px 0px;
 }
 
 /* attorney imgs */
-.attorney-page .attorney-imgs{
+.attorney-page .attorney-imgs {
     width: 500px;
     margin-left: 40px;
 }
 
 
-.attorney-page .attorney-imgs :last-child{
+.attorney-page .attorney-imgs :last-child {
     margin-top: 30px;
 }
+
 /* attorney imgs */
 /* attorney text  */
-.attorney-page .attorney-text{
+.attorney-page .attorney-text {
     position: absolute;
     top: 72px;
     left: 616px;
     color: var(--txt-color1);
 }
 
-.attorney-page .attorney-text h2{
-    font-family:var(--main-font-family);
+.attorney-page .attorney-text h2 {
+    font-family: var(--main-font-family);
     font-size: 2rem;
     width: 450px;
     line-height: 40px;
 }
 
-.attorney-page .attorney-text p{
-    font-size:1.5rem;
+.attorney-page .attorney-text p {
+    font-size: 1.5rem;
     width: 830px;
     margin-bottom: 50px;
     line-height: 32px;
 }
 
-.attorney-page .attorney-text  img{
+.attorney-page .attorney-text img {
     margin-top: 20px;
     margin-bottom: 35px;
 }
 
-.attorney-page .attorney-text .attorney-person-div{
+.attorney-page .attorney-text .attorney-person-div {
     display: flex;
     align-items: center;
 }
 
-.attorney-page .attorney-text .attorney-person-div img{
+.attorney-page .attorney-text .attorney-person-div img {
     transform: rotateY(-180deg);
 }
 
-.attorney-page .attorney-text .attorney-person-div p{
+.attorney-page .attorney-text .attorney-person-div p {
     font-size: 40px;
     font-family: var(--main-font-family);
     margin-left: 20px;
 }
 
-.attorney-page .attorney-text  .attorney-card{
+.attorney-page .attorney-text .attorney-card {
     margin-top: 10px;
 }
 
-.attorney-page .attorney-text  .attorney-card :last-child{
+.attorney-page .attorney-text .attorney-card :last-child {
     margin-left: 50px;
 }
+
 /* attorney text  */
 /* ########### Attorney ############ */
 
 /*  ################## Explore page ###################### */
 
-.explore-page{
+.explore-page {
     margin-top: 90px;
     padding: 50px 0px;
 }
 
-.explore-page .explore-text{
+.explore-page .explore-text {
     display: flex;
     justify-content: space-around;
 }
 
-.explore-page .explore-text  h2{
+.explore-page .explore-text h2 {
     color: var(--txt-color1);
     font-family: var(--main-font-family);
     width: 336px;
@@ -288,7 +291,7 @@ nav .call-flex i {
     line-height: 58px;
 }
 
-.explore-page .explore-text p{
+.explore-page .explore-text p {
     font-size: 25px;
     color: var(--txt-color1);
     width: 721px;
@@ -296,39 +299,60 @@ nav .call-flex i {
 }
 
 
-.explore-page .explore-card{
+.explore-page .explore-card {
+    max-width: 1300px;
     margin-top: 60px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.explore-page .explore-card .card{
+.explore-page .explore-card .card {
     width: 400px;
-    padding: 50px 30px;
+    padding: 60px 30px;
+    margin: 15px;
     background-color: var(--card-bg-color);
 }
 
 
-.explore-page .explore-card .card h3{
+.explore-page .explore-card .card h3 {
     color: var(--txt-color1);
     font-family: var(--main-font-family);
     font-size: 2rem;
     line-height: 58px;
+    margin-bottom: 20px;
 }
 
 
-.explore-page .explore-card .card p{
+.explore-page .explore-card .card p {
     font-size: 20px;
     line-height: 32px;
     color: var(--txt-color1);
 }
 
-.explore-page .explore-card .card .hr{
+.explore-page .explore-card .card .hr {
     margin-top: 20px;
     background-color: var(--hr-color);
     height: 2px;
+    margin-bottom: 40px;
 }
 
+.explore-page .explore-card .card .card-foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.explore-page .explore-card .card .card-foot a {
+    padding: 15px 30px;
+    text-decoration: none;
+    background-color: var(--container-bgc);
+    color: var(--txt-color1);
+    font-family: Outfit;
+    font-size: 23px;
+}
 
 /*  ################## Explore page ###################### */
