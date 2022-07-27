@@ -19,6 +19,7 @@ body {
     --container-bgc: #05152e;
     --txt-color1: #D7D7D7;
     --card-bg-color: #1F2732;
+    --clients-div-bg-color:#2E3947;
     --main-font-family: Cormorant Garamond;
 }
 
@@ -502,7 +503,64 @@ nav .call-flex i {
 /* ##################################### Client page ########################################  */
 
 .client-page{
-    display: block;
+    text-align: center;
+    padding: 170px 0px;
+}
+
+.client-page h3{
+    color: var(--txt-color1);
+    font-family: var(--main-font-family);
+    line-height: 50px;
+    font-size: 45px;
+}
+
+.client-page img{
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.client-page .commetns{
+    position: relative;
+    display: flex;
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.client-page .client-comments{
+    width: 250px;
+    height: 290px;
+    padding: 20px;
+    text-align:left;
+    background-color: var(--clients-div-bg-color);
+    border-radius: 1px 1px 1px 40px;
+}
+
+.client-page .commetns .client-comments p{
+    margin-top: 40px;
+    color: var(--txt-color1);
+}
+
+.client-page .commetns .client-comments i{
+    color: var(--text-color);
+    font-size: 3rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.client-page .commetns .clients-name{
+    position: absolute;
+    top: 300px;
+    display: flex;
+    align-items: center;
+    text-align-last: left;
+    color: var(--txt-color1);
+}
+
+.client-page .commetns .clients-name h5, p{
+    position: relative;
+    top: -30px;
+    left: 10px;
 }
 
 /* ##################################### Client page ########################################  */
