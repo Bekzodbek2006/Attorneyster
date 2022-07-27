@@ -473,6 +473,10 @@ nav .call-flex i {
     line-height: 30px;
 }
 
+.lawyers-page .laweryer-right-text .lawer-text :nth-child(5){
+    margin-bottom: 75px;
+}
+
 .lawyers-page .laweryer-right-text .percent .around {
     display: flex;
     justify-content: space-between;
@@ -483,6 +487,14 @@ nav .call-flex i {
 
 .lawyers-page .laweryer-right-text .percent img {
     width: 400px;
+}
+
+.lawyers-page .laweryer-right-text a{
+    padding: 25px 45px;
+    background: var(--text-color);
+    font-size: 27px;
+    text-decoration: none;
+    color: var(--card-bg-color);
 }
 
 /* ################################ Lawyers  page ################################################ */
