@@ -412,4 +412,46 @@ nav .call-flex i {
 }
 
 /* #####################    Fighting page     ########################### */
+/* ################################ Lawyers  page ################################################ */
+.lawyers-page{
+    padding: 40px 10px;
+    background-image: url(../imgs/hammer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.lawyers-page .lawyers{
+    display: flex;
+    background-color: rgba(31, 39, 50, 0.85);;
+    justify-content: space-around;
+    width: 1350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px 60px;
+}
+
+.lawyers-page .lawyers h2{
+    color: var(--txt-color1);
+    font-family: var(--main-font-family);
+    line-height: 58px;
+    font-size: 30px;
+    width: 300px;
+}
+
+.lawyers-page .lawyers-left-text{
+    width: 400px;
+}
+
+.lawyers-page .lawyers-left-text h4{
+    font-size: 20px;
+    color: var(--text-color);
+    line-height: 58px;
+}
+
+.lawyers-page .lawyers-left-text p{
+    font-size: 20px;
+    line-height: 32px;
+    color: var(--txt-color1);
+}
+
+/* ################################ Lawyers  page ################################################ */
