@@ -203,12 +203,18 @@ nav .call-flex i {
     padding: 80px 0px;
 }
 
+/* attorney imgs */
 .attorney-page .attorney-imgs{
     width: 500px;
     margin-left: 40px;
 }
 
 
+.attorney-page .attorney-imgs :last-child{
+    margin-top: 30px;
+}
+/* attorney imgs */
+/* attorney text  */
 .attorney-page .attorney-text{
     position: absolute;
     top: 72px;
@@ -221,18 +227,38 @@ nav .call-flex i {
     width: 499px;
 }
 
-.attorney-page .attorney-text .attorney-person-div{
-    display: flex;
+.attorney-page .attorney-text p{
+    font-size:1.5rem;
+    width: 830px;
+    margin-bottom: 50px;
 }
 
-.attorney-page .attorney-text .attorney-person-div img{
+.attorney-page .attorney-text  img{
     margin-top: 20px;
     margin-bottom: 40px;
 }
 
-.attorney-page .attorney-text p{
-    font-size:1.5rem;
-    width: 830px;
+.attorney-page .attorney-text .attorney-person-div{
+    display: flex;
+    align-items: center;
 }
 
+.attorney-page .attorney-text .attorney-person-div img{
+    transform: rotateY(-180deg);
+}
+
+.attorney-page .attorney-text .attorney-person-div p{
+    font-size: 40px;
+    font-family: Cormorant Garamond;
+    margin-left: 20px;
+}
+
+.attorney-page .attorney-text  .attorney-card{
+    margin-top: 20px;
+}
+
+.attorney-page .attorney-text  .attorney-card :last-child{
+    margin-left: 50px;
+}
+/* attorney text  */
 /* ########### Attorney ############ */
