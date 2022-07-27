@@ -361,7 +361,7 @@ nav .call-flex i {
 /* #####################    Fighting page     ########################### */
 .fighting-page{
     background-color: #fff;
-    padding-top: 120px;
+    padding: 120px 0px;
     text-align: center;
 }
 
