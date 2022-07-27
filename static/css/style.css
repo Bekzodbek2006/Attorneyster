@@ -1,0 +1,189 @@
+/* ############ main ############## */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+:root {
+    --text-color: #D1B06B;
+    --text1-color: #ffff;
+    --bg-color: rgba(31, 39, 50, 0.81);
+    --hr-color: #4E555F;
+}
+
+.container {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #E5E5E5;
+}
+
+/* ############ main ############## */
+/* ########### header ############ */
+
+header {
+    padding-top: 20px;
+    color: var(--text1-color);
+    background-image: url(../imgs/header.png);
+    background-size: cover;
+    height: 990px;
+    background-blend-mode: multiply;
+    background-color: var(--bg-color);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header .hr {
+    margin-top: 20px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--hr-color);
+    height: 2px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header a {
+    position: relative;
+    right: 50px;
+    padding: 25px 45px;
+    background: rgba(255, 255, 255, 0.1);
+    font-size: 27px;
+    text-decoration: none;
+    color: var(--text1-color);
+}
+
+/* ------ brand logo -------- */
+.header-brand {
+    display: flex;
+    align-items: center;
+    margin-left: 19px;
+}
+
+.header-brand h1 {
+    font-size: 3rem;
+    font-family: none;
+    color: #fff;
+}
+
+
+
+/* ------ brand logo -------- */
+
+/* ------ navbar --------- */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    padding: 25px 0px;
+    margin-top: 20px;
+    display: flex;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--text1-color);
+}
+nav ul li a span {
+    color: #D1B06B;
+}
+
+nav .call-flex {
+    display: flex;
+}
+
+nav .call-flex span{
+    margin-top: 10px;
+}
+
+nav .call-flex span p {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: var(--text-color);
+}
+
+nav .call-flex .left {
+    display: flex;
+    margin-right: 15px;
+}
+
+nav .call-flex .right {
+    margin-right: 35px;
+    display: flex;
+}
+
+nav .call-flex a {
+    text-decoration: none;
+    color: var(--text1-color);
+}
+
+nav .call-flex i {
+    color: var(--text-color);
+    padding: 20px 20px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    height: 60px;
+    border: 2px solid var(--text-color);
+    margin-right: 10px;
+}
+
+/* ------ navbar --------- */
+
+.header-flex {
+    display: flex;
+    position: relative;
+}
+
+.header-flex .header-text{
+    position: absolute;
+    top: 260px;
+    left: 50px;
+    width: 710px;
+}
+
+.header-flex .header-text  h3{
+    line-height: 75px;
+    font-size: 55px;
+    font-family: none;
+}
+
+.header-flex .header-text  p{
+    font-family: sans-serif;
+    line-height: 35px;
+    font-size: 27px;
+    color: var(--text-color);
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: none;
+}
+
+.header-flex .header-text a{
+    text-decoration: none;
+    color: black;
+    padding: 25px 40px;
+    background-color: var(--text-color);
+    font-size: 25px;
+}
+
+.header-flex .person-img{
+    position: absolute;
+    top: 165px;
+    left: 878px;
+}
