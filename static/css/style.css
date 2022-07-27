@@ -522,10 +522,13 @@ nav .call-flex i {
 .client-page .commetns{
     position: relative;
     display: flex;
-    width: 1300px;
+    width: 1400px;
     margin-left: auto;
     margin-right: auto;
+    justify-content: space-around;
 }
+
+
 
 .client-page .client-comments{
     width: 250px;
@@ -557,10 +560,57 @@ nav .call-flex i {
     color: var(--txt-color1);
 }
 
+
 .client-page .commetns .clients-name h5, p{
     position: relative;
     top: -30px;
     left: 10px;
+}
+
+.client-page .client-comments1{
+    position: relative;
+    top: -100px;
+    width: 250px;
+    height: 290px;
+    padding: 20px;
+    text-align:left;
+    background-color: var(--clients-div-bg-color);
+    border-radius: 40px 1px 1px 1px;
+}
+
+.client-page .commetns .clients-name1 h5, p{
+    position: relative;
+    top: -30px;
+    left: 10px;
+}
+
+
+.client-page .commetns .client-comments1 p{
+    margin-top: 40px;
+    color: var(--txt-color1);
+}
+
+
+.client-page .commetns .client-comments1 i{
+    color: var(--text-color);
+    font-size: 3rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.client-page .commetns .clients-name1{
+    position: relative;
+    top: -20px;
+    left: 31px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: var(--txt-color1);
+}
+
+
+.client-page .commetns .card{
+    position: relative;
 }
 
 /* ##################################### Client page ########################################  */
