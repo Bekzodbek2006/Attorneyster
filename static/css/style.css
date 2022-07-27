@@ -4,7 +4,11 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+}
+
+body{
     font-family: sans-serif;
+    background-color: var(--bg-color);
 }
 
 :root {
@@ -12,13 +16,15 @@
     --text1-color: #ffff;
     --bg-color: rgba(31, 39, 50, 0.81);
     --hr-color: #4E555F;
+    --container-bgc:#05152e;
+    --txt-color1:#D7D7D7;
 }
 
 .container {
     max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #E5E5E5;
+    background-color: var(--container-bgc);
 }
 
 /* ############ main ############## */
@@ -187,3 +193,42 @@ nav .call-flex i {
     top: 165px;
     left: 878px;
 }
+
+/* ########### header ############ */
+/* ########### Attorney ############ */
+
+.attorney-page{
+    position: relative;
+    display: flex;
+    padding: 80px 0px;
+}
+
+.attorney-page .attorney-imgs{
+    width: 500px;
+    margin-left: 40px;
+}
+
+
+.attorney-page .attorney-text{
+    position: absolute;
+    top: 72px;
+    left: 616px;
+    color: var(--txt-color1);
+}
+
+.attorney-page .attorney-text h2{
+    font-size: 2rem;
+    width: 499px;
+}
+
+.attorney-page .attorney-text img{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.attorney-page .attorney-text p{
+    font-size:1.5rem;
+    width: 830px;
+}
+
+/* ########### Attorney ############ */
