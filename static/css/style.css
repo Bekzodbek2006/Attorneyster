@@ -359,15 +359,15 @@ nav .call-flex i {
 
 
 /* #####################    Fighting page     ########################### */
-.fighting-page{
+.fighting-page {
     background-color: #fff;
     padding: 120px 0px;
     text-align: center;
 }
 
-.fighting-page h4{
+.fighting-page h4 {
     font-family: var(--main-font-family);
-    font-size:45px;
+    font-size: 45px;
     width: 395px;
     margin-left: auto;
     margin-right: auto;
@@ -375,12 +375,12 @@ nav .call-flex i {
     margin-bottom: 20px;
 }
 
-.fighting-page img{
+.fighting-page img {
     margin-top: 20px;
     margin-bottom: 30px;
 }
 
-.fighting-page p{
+.fighting-page p {
     font-size: 20px;
     line-height: 32px;
     width: 600px;
@@ -389,12 +389,12 @@ nav .call-flex i {
     margin-bottom: 40px;
 }
 
-.fighting-page .fighting-imgs :nth-child(2){
+.fighting-page .fighting-imgs :nth-child(2) {
     margin-left: 20px;
     margin-right: 20px;
 }
 
-.fighting-page hr{
+.fighting-page hr {
     margin-left: auto;
     margin-right: auto;
     background-color: var(--hr-color);
@@ -403,7 +403,7 @@ nav .call-flex i {
     margin-top: 20px;
 }
 
-.fighting-page .flex{
+.fighting-page .flex {
     margin-top: 40px;
     display: flex;
     width: 700px;
@@ -413,16 +413,17 @@ nav .call-flex i {
 
 /* #####################    Fighting page     ########################### */
 /* ################################ Lawyers  page ################################################ */
-.lawyers-page{
+.lawyers-page {
     padding: 40px 10px;
     background-image: url(../imgs/hammer.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.lawyers-page .lawyers{
+.lawyers-page .lawyers {
     display: flex;
-    background-color: rgba(31, 39, 50, 0.85);;
+    background-color: rgba(31, 39, 50, 0.85);
+    ;
     justify-content: space-around;
     width: 1350px;
     margin-left: auto;
@@ -430,7 +431,7 @@ nav .call-flex i {
     padding: 80px 60px;
 }
 
-.lawyers-page .lawyers h2{
+.lawyers-page .lawyers h2 {
     color: var(--txt-color1);
     font-family: var(--main-font-family);
     line-height: 58px;
@@ -438,47 +439,49 @@ nav .call-flex i {
     width: 300px;
 }
 
-.lawyers-page .lawyers-left-text{
+.lawyers-page .lawyers-left-text {
     width: 400px;
 }
 
-.lawyers-page .lawyers-left-text h4{
+.lawyers-page .lawyers-left-text h4 {
     font-size: 20px;
     color: var(--text-color);
     line-height: 58px;
 }
 
-.lawyers-page .lawyers-left-text p{
+.lawyers-page .lawyers-left-text p {
     font-size: 20px;
     line-height: 32px;
     color: var(--txt-color1);
 }
 
 
-.lawyers-page .laweryer-right-text{
+.lawyers-page .laweryer-right-text {
     width: 400px;
     color: var(--txt-color1);
 }
 
-.lawyers-page .laweryer-right-text .percent{
+.lawyers-page .laweryer-right-text .percent {
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
 }
 
-.lawyers-page .laweryer-right-text .lawer-text #p{
+.lawyers-page .laweryer-right-text .lawer-text #p {
     margin-top: 50px;
     margin-bottom: 25px;
     line-height: 30px;
 }
 
-.lawyers-page .laweryer-right-text .percent .around{
+.lawyers-page .laweryer-right-text .percent .around {
     display: flex;
     justify-content: space-between;
     color: var(--txt-color1);
+
 }
 
 
-.lawyers-page .laweryer-right-text .percent  img{
+.lawyers-page .laweryer-right-text .percent img {
     width: 400px;
 }
 
