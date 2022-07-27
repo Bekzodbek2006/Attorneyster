@@ -454,4 +454,32 @@ nav .call-flex i {
     color: var(--txt-color1);
 }
 
+
+.lawyers-page .laweryer-right-text{
+    width: 400px;
+    color: var(--txt-color1);
+}
+
+.lawyers-page .laweryer-right-text .percent{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lawyers-page .laweryer-right-text .lawer-text #p{
+    margin-top: 50px;
+    margin-bottom: 25px;
+    line-height: 30px;
+}
+
+.lawyers-page .laweryer-right-text .percent .around{
+    display: flex;
+    justify-content: space-between;
+    color: var(--txt-color1);
+}
+
+
+.lawyers-page .laweryer-right-text .percent  img{
+    width: 400px;
+}
+
 /* ################################ Lawyers  page ################################################ */
