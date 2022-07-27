@@ -18,6 +18,7 @@ body{
     --hr-color: #4E555F;
     --container-bgc:#05152e;
     --txt-color1:#D7D7D7;
+    --main-font-family:Cormorant Garamond;
 }
 
 .container {
@@ -223,8 +224,9 @@ nav .call-flex i {
 }
 
 .attorney-page .attorney-text h2{
+    font-family:var(--main-font-family);
     font-size: 2rem;
-    width: 499px;
+    width: 450px;
 }
 
 .attorney-page .attorney-text p{
@@ -249,7 +251,7 @@ nav .call-flex i {
 
 .attorney-page .attorney-text .attorney-person-div p{
     font-size: 40px;
-    font-family: Cormorant Garamond;
+    font-family: var(--main-font-family);
     margin-left: 20px;
 }
 
@@ -265,6 +267,12 @@ nav .call-flex i {
 
 /*  ################## Explore page ###################### */
 
+.explore-page .explore-text{
+    display: flex;
+}
 
-
+.explore-page .explore-text  h2{
+    color: var(--txt-color1);
+    font-family: var(--main-font-family);
+}
 /*  ################## Explore page ###################### */
