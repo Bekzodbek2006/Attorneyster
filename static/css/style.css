@@ -221,7 +221,11 @@ nav .call-flex i {
     width: 499px;
 }
 
-.attorney-page .attorney-text img{
+.attorney-page .attorney-text .attorney-person-div{
+    display: flex;
+}
+
+.attorney-page .attorney-text .attorney-person-div img{
     margin-top: 20px;
     margin-bottom: 40px;
 }
