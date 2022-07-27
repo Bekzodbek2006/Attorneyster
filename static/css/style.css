@@ -356,3 +356,60 @@ nav .call-flex i {
 }
 
 /*  ################## Explore page ###################### */
+
+
+/* #####################    Fighting page     ########################### */
+.fighting-page{
+    background-color: #fff;
+    padding-top: 120px;
+    text-align: center;
+}
+
+.fighting-page h4{
+    font-family: var(--main-font-family);
+    font-size:45px;
+    width: 395px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 58px;
+    margin-bottom: 20px;
+}
+
+.fighting-page img{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.fighting-page p{
+    font-size: 20px;
+    line-height: 32px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.fighting-page .fighting-imgs :nth-child(2){
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.fighting-page hr{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--hr-color);
+    height: 2px;
+    width: 1350px;
+    margin-top: 20px;
+}
+
+.fighting-page .flex{
+    margin-top: 40px;
+    display: flex;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* #####################    Fighting page     ########################### */
+
