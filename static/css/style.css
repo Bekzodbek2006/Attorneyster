@@ -18,6 +18,7 @@ body{
     --hr-color: #4E555F;
     --container-bgc:#05152e;
     --txt-color1:#D7D7D7;
+    --card-bg-color:#1F2732;
     --main-font-family:Cormorant Garamond;
 }
 
@@ -227,17 +228,19 @@ nav .call-flex i {
     font-family:var(--main-font-family);
     font-size: 2rem;
     width: 450px;
+    line-height: 40px;
 }
 
 .attorney-page .attorney-text p{
     font-size:1.5rem;
     width: 830px;
     margin-bottom: 50px;
+    line-height: 32px;
 }
 
 .attorney-page .attorney-text  img{
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 }
 
 .attorney-page .attorney-text .attorney-person-div{
@@ -256,7 +259,7 @@ nav .call-flex i {
 }
 
 .attorney-page .attorney-text  .attorney-card{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .attorney-page .attorney-text  .attorney-card :last-child{
@@ -267,12 +270,65 @@ nav .call-flex i {
 
 /*  ################## Explore page ###################### */
 
+.explore-page{
+    margin-top: 90px;
+    padding: 50px 0px;
+}
+
 .explore-page .explore-text{
     display: flex;
+    justify-content: space-around;
 }
 
 .explore-page .explore-text  h2{
     color: var(--txt-color1);
     font-family: var(--main-font-family);
+    width: 336px;
+    font-size: 2rem;
+    line-height: 58px;
 }
+
+.explore-page .explore-text p{
+    font-size: 25px;
+    color: var(--txt-color1);
+    width: 721px;
+    line-height: 32px;
+}
+
+
+.explore-page .explore-card{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.explore-page .explore-card .card{
+    width: 400px;
+    padding: 50px 30px;
+    background-color: var(--card-bg-color);
+}
+
+
+.explore-page .explore-card .card h3{
+    color: var(--txt-color1);
+    font-family: var(--main-font-family);
+    font-size: 2rem;
+    line-height: 58px;
+}
+
+
+.explore-page .explore-card .card p{
+    font-size: 20px;
+    line-height: 32px;
+    color: var(--txt-color1);
+}
+
+.explore-page .explore-card .card .hr{
+    margin-top: 20px;
+    background-color: var(--hr-color);
+    height: 2px;
+}
+
+
 /*  ################## Explore page ###################### */
