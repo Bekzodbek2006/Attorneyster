@@ -715,9 +715,50 @@ nav .call-flex i {
 }
 
 .expert-law-page .text-right .border-div{
-    color: black ;
     padding: 60px 40px;
     border: 10px solid #D7D7D7;
 }
+
+.expert-law-page .text-right .border-div h5{
+    font-size: 42px;
+    font-weight: 400;
+    font-family: var(--main-font-family);
+    line-height: 50px;
+    color: black;
+}
+
+.expert-law-page .text-right .border-div p{
+    color: #909090;
+    font-size: 21px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    line-height: 30px;
+}
+
+.expert-law-page .text-right .border-div .flex{
+    display: flex;
+}
+
+.expert-law-page .text-right .border-div .flex i{
+    color: #fff;
+    background-color: var(--text-color);
+    padding: 26px;
+    height: 77px;
+    font-size: 32px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
+.expert-law-page .text-right .border-div .flex span p{
+    color: black;
+}
+
+
+.expert-law-page .text-right .border-div .flex span #num{
+    font-size: 30px;
+}
+
+
 /* right */
 /* ##################################### Expert law  page ########################################  */
