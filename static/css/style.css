@@ -19,7 +19,7 @@ body {
     --container-bgc: #05152e;
     --txt-color1: #D7D7D7;
     --card-bg-color: #1F2732;
-    --clients-div-bg-color:#2E3947;
+    --clients-div-bg-color: #2E3947;
     --main-font-family: Cormorant Garamond;
 }
 
@@ -475,7 +475,7 @@ nav .call-flex i {
     line-height: 30px;
 }
 
-.lawyers-page .laweryer-right-text .lawer-text :nth-child(5){
+.lawyers-page .laweryer-right-text .lawer-text :nth-child(5) {
     margin-bottom: 75px;
 }
 
@@ -491,7 +491,7 @@ nav .call-flex i {
     width: 400px;
 }
 
-.lawyers-page .laweryer-right-text a{
+.lawyers-page .laweryer-right-text a {
     padding: 25px 45px;
     background: var(--text-color);
     font-size: 27px;
@@ -503,24 +503,24 @@ nav .call-flex i {
 
 /* ##################################### Client page ########################################  */
 
-.client-page{
+.client-page {
     text-align: center;
     padding: 170px 0px;
 }
 
-.client-page h3{
+.client-page h3 {
     color: var(--txt-color1);
     font-family: var(--main-font-family);
     line-height: 50px;
     font-size: 45px;
 }
 
-.client-page img{
+.client-page img {
     margin-top: 20px;
     margin-bottom: 100px;
 }
 
-.client-page .commetns{
+.client-page .commetns {
     position: relative;
     display: flex;
     width: 1400px;
@@ -531,28 +531,28 @@ nav .call-flex i {
 
 
 
-.client-page .client-comments{
+.client-page .client-comments {
     width: 300px;
     height: 290px;
     padding: 20px;
-    text-align:left;
+    text-align: left;
     background-color: var(--clients-div-bg-color);
     border-radius: 1px 1px 1px 40px;
 }
 
-.client-page .commetns .client-comments #p-text{
+.client-page .commetns .client-comments #p-text {
     margin-top: 40px;
     color: var(--txt-color1);
 }
 
-.client-page .commetns .client-comments i{
+.client-page .commetns .client-comments i {
     color: var(--text-color);
     font-size: 3rem;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.client-page .commetns .clients-name{
+.client-page .commetns .clients-name {
     position: absolute;
     top: 300px;
     display: flex;
@@ -562,44 +562,46 @@ nav .call-flex i {
 }
 
 
-.client-page .commetns .clients-name h5, #p{
+.client-page .commetns .clients-name h5,
+#p {
     position: relative;
     top: -30px;
     left: 10px;
 }
 
-.client-page .client-comments1{
+.client-page .client-comments1 {
     position: relative;
     top: -100px;
     width: 300px;
     height: 290px;
     padding: 20px;
-    text-align:left;
+    text-align: left;
     background-color: var(--clients-div-bg-color);
     border-radius: 40px 1px 1px 1px;
 }
 
-.client-page .commetns .clients-name1 h5, #p{
+.client-page .commetns .clients-name1 h5,
+#p {
     position: relative;
     top: -30px;
     left: 10px;
 }
 
 
-.client-page .commetns .client-comments1 #p-text{
+.client-page .commetns .client-comments1 #p-text {
     margin-top: 40px;
     color: var(--txt-color1);
 }
 
 
-.client-page .commetns .client-comments1 i{
+.client-page .commetns .client-comments1 i {
     color: var(--text-color);
     font-size: 3rem;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.client-page .commetns .clients-name1{
+.client-page .commetns .clients-name1 {
     position: relative;
     top: -20px;
     left: 31px;
@@ -610,20 +612,20 @@ nav .call-flex i {
 }
 
 
-.client-page .commetns .card{
+.client-page .commetns .card {
     position: relative;
 }
 
 /* ##################################### Client page ########################################  */
 /* ##################################### Experienced  page ########################################   */
-.experienced-page{
+.experienced-page {
     padding: 100px 0px;
     background-color: #fff;
     text-align: center;
     font-family: var(--main-font-family);
 }
 
-.experienced-page h2{
+.experienced-page h2 {
     line-height: 50px;
     font-size: 45px;
     font-weight: 400;
@@ -633,25 +635,25 @@ nav .call-flex i {
     margin-right: auto;
 }
 
-.experienced-page #img{
+.experienced-page #img {
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
-.experienced-page .experienced-imgs #social-madiea-icons{
+.experienced-page .experienced-imgs #social-madiea-icons {
     position: absolute;
     left: 646px;
     top: 397px;
 }
 
-.experienced-page .experienced-imgs{
+.experienced-page .experienced-imgs {
     position: relative;
     display: flex;
     justify-content: space-between;
     padding: 0px 40px;
 }
 
-.experienced-page .experienced-imgs h3{
+.experienced-page .experienced-imgs h3 {
     font-weight: 400;
     font-size: 30px;
     margin-top: 10px;
@@ -659,7 +661,7 @@ nav .call-flex i {
     line-height: 30px;
 }
 
-.experienced-page .experienced-imgs span{
+.experienced-page .experienced-imgs span {
     color: var(--text-color);
     font-family: sans-serif;
 }
@@ -672,29 +674,30 @@ nav .call-flex i {
     padding: 120px 30px;
     color: var(--txt-color1);
 }
+
 /* left */
-.expert-law-page .text-left{
+.expert-law-page .text-left {
     width: 600px;
 }
 
-.expert-law-page .text-left h3{
+.expert-law-page .text-left h3 {
     font-size: 45px;
     line-height: 55px;
     font-family: var(--main-font-family);
     font-weight: 400;
 }
 
-.expert-law-page .text-left img{
+.expert-law-page .text-left img {
     margin: 30px 0px 65px 0px;
 }
 
-.expert-law-page .text-left p{
+.expert-law-page .text-left p {
     font-size: 20px;
     line-height: 32px;
     margin-bottom: 100px;
 }
 
-.expert-law-page .text-left a{
+.expert-law-page .text-left a {
     text-decoration: none;
     color: black;
     padding: 35px 77px;
@@ -708,19 +711,19 @@ nav .call-flex i {
 
 /* right */
 
-.expert-law-page .text-right{
+.expert-law-page .text-right {
     width: 600px;
     height: 480px;
     background-color: #fff;
     padding: 40px;
 }
 
-.expert-law-page .text-right .border-div{
+.expert-law-page .text-right .border-div {
     padding: 60px 40px;
     border: 10px solid #D7D7D7;
 }
 
-.expert-law-page .text-right .border-div h5{
+.expert-law-page .text-right .border-div h5 {
     font-size: 42px;
     font-weight: 400;
     font-family: var(--main-font-family);
@@ -728,7 +731,7 @@ nav .call-flex i {
     color: black;
 }
 
-.expert-law-page .text-right .border-div p{
+.expert-law-page .text-right .border-div p {
     color: #909090;
     font-size: 21px;
     margin-top: 12px;
@@ -736,11 +739,11 @@ nav .call-flex i {
     line-height: 30px;
 }
 
-.expert-law-page .text-right .border-div .flex{
+.expert-law-page .text-right .border-div .flex {
     display: flex;
 }
 
-.expert-law-page .text-right .border-div .flex i{
+.expert-law-page .text-right .border-div .flex i {
     color: #fff;
     background-color: var(--text-color);
     padding: 26px;
@@ -751,12 +754,12 @@ nav .call-flex i {
 }
 
 
-.expert-law-page .text-right .border-div .flex span p{
+.expert-law-page .text-right .border-div .flex span p {
     color: black;
 }
 
 
-.expert-law-page .text-right .border-div .flex span #num{
+.expert-law-page .text-right .border-div .flex span #num {
     font-size: 30px;
 }
 
@@ -765,50 +768,57 @@ nav .call-flex i {
 /* ##################################### Expert law  page ########################################  */
 
 /* ##################################### contact us  page ######################################## */
-#contact{
+#contact {
     padding: 100px 20px;
     background-image: url(../imgs/lib.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#contact #form{
+#contact #form {
     width: 1300px;
     height: 600px;
     margin-left: auto;
     margin-right: auto;
-    background-color:var(--container-bgc);
+    background-color: var(--container-bgc);
     padding: 80px 100px;
     text-align: center;
 }
 
-#contact #form input{
+#contact #form input {
     width: 500px;
     background-color: transparent;
     outline: none;
     border: none;
-    border-bottom:2px solid #3B434E ;
+    border-bottom: 2px solid #3B434E;
     font-size: 25px;
     margin-top: 40px;
     margin-left: 20px;
-    color: #fff ;
+    color: #fff;
 }
 
+#contact #form input::placeholder {
+    color: #fff;
+}
 
-#contact #form textarea{
+#contact #form textarea {
     height: 107px;
     width: 1030px;
     background-color: transparent;
     outline: none;
     border: none;
-    border-bottom:2px solid #3B434E ;
+    border-bottom: 2px solid #3B434E;
     font-size: 25px;
-    color: #fff ;
+    color: #fff;
     margin-left: 20px;
     margin-top: 40px;
 }
 
-#contact #form button{
+#contact #form textarea::placeholder {
+    color: #fff;
+}
+
+#contact #form button {
     background-color: #fff;
     padding: 20px 40px;
     line-height: 20px;
@@ -817,3 +827,68 @@ nav .call-flex i {
 }
 
 /* ##################################### contact us  page ######################################## */
+
+/* ##################################### Recent Blogs  page ########################################  */
+.blog-page {
+    padding: 100px 40px;
+    text-align: center;
+}
+
+.blog-page h3 {
+    color: var(--txt-color1);
+    font-size: 45px;
+    font-family: var(--main-font-family);
+    font-weight: 400;
+}
+
+.blog-page img {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.blog-page .blog-div {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.blog-page .blog-div .blog-text {
+    width: 800px;
+    padding-top: 80px;
+}
+
+.blog-page .blog-div .blog-text span {
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+.blog-page .blog-div h2 {
+    color: var(--txt-color1);
+    font-family: var(--main-font-family);
+    line-height: 58px;
+    font-weight: 400;
+    font-size: 45px;
+}
+
+.blog-page .blog-div .blog-text .hr {
+    background-color: #4E555F;
+    width: 100%;
+    height: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.blog-page .blog-div .blog-text p{
+    color: var(--txt-color1);
+    font-size: 20px;
+    line-height: 32px;
+    width: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.blog-page .blog-div .blog-text a{
+    
+}
+
+/* ##################################### Recent Blogs  page ########################################  */
