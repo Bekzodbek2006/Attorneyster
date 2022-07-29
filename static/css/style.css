@@ -952,7 +952,7 @@ nav .call-flex i {
 }
 
 /* ##################################### Recent Blogs  page ########################################  */
-
+/* ##################################### footer  page ########################################  */
 .footer{
     background-image: url(../imgs/footer-imgs/for-footer.png);
     width: 100%;
@@ -982,3 +982,105 @@ footer .footer-text #icon-img{
 footer .footer-text #img {
     transform: rotateY(180deg);
 }
+
+footer .footer-flex{
+    display: flex;
+    padding: 40px;
+}
+
+footer .footer-flex .quick-link{
+    width: 300px;
+}
+
+footer .footer-flex .quick-link h3{
+    color: #fff;
+    font-family: Cormorant Garamond;
+    font-size: 30px;
+    line-height: 39px;
+    font-weight: 400;
+}
+
+footer .footer-flex .quick-link  .hr{
+    background-color: #4E555F;
+    width: 100%;
+    height: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer .footer-flex .quick-link .flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+footer .footer-flex .quick-link .flex ul li{
+    list-style-type: none;
+}
+
+footer .footer-flex .quick-link .flex ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+footer .uli{
+    width: 200px !important;
+    margin-left: 100px;
+}
+
+footer .uli ul li{
+    list-style: none;
+}
+
+footer .uli ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+footer .con{
+    width: 450px !important;
+    margin-left: 70px;
+}
+
+footer .con p{
+    color: #fff;
+    line-height: 48px;
+    font-size: 20px;
+}
+
+footer .con .top{
+    margin-top: 50px ;
+}
+
+.footer-end{
+    color: #fff;
+    padding: 20px 40px;
+    
+}
+.footer-end .flex{
+    display: flex;
+}
+
+.footer-end .hr{
+    background-color: #4E555F;
+    width: 100%;
+    height: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-end .span{
+    width: 1000px;
+}
+
+.footer-end .span .color{
+    color: var(--text-color);
+}
+
+/* ##################################### footer  page ########################################  */
