@@ -35,7 +35,7 @@ body {
 header {
     padding-top: 20px;
     color: var(--text1-color);
-    background-image: url(../imgs/header.png);
+    background-image: url(../imgs/header-imgs/header.png);
     background-size: cover;
     height: 990px;
     background-blend-mode: multiply;
@@ -417,7 +417,7 @@ nav .call-flex i {
 /* ################################ Lawyers  page ################################################ */
 .lawyers-page {
     padding: 40px 10px;
-    background-image: url(../imgs/hammer.png);
+    background-image: url(../imgs/lawyers/hammer.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -770,7 +770,7 @@ nav .call-flex i {
 /* ##################################### contact us  page ######################################## */
 #contact {
     padding: 100px 20px;
-    background-image: url(../imgs/lib.png);
+    background-image: url(../imgs/contact/lib.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
