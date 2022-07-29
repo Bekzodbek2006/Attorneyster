@@ -880,7 +880,7 @@ nav .call-flex i {
     margin-bottom: 20px;
 }
 
-.blog-page .blog-div .blog-text p{
+.blog-page .blog-div .blog-text p {
     color: var(--txt-color1);
     font-size: 20px;
     line-height: 32px;
@@ -889,13 +889,13 @@ nav .call-flex i {
     margin-bottom: 20px;
 }
 
-.blog-page .blog-div .blog-text a{
+.blog-page .blog-div .blog-text a {
     color: var(--text-color);
     font-size: 22px;
     line-height: 35px;
 }
 
-.blog-page .hr{
+.blog-page .hr {
     background-color: #4E555F;
     width: 100%;
     height: 2px;
@@ -903,24 +903,25 @@ nav .call-flex i {
     margin-bottom: 20px;
 }
 
-.blogs{
+.blogs {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 0px 60px;
+    padding-bottom: 70px;
 }
 
-.blogs .card{
+.blogs .card {
     width: 400px;
     margin-top: 60px;
 }
 
-.blogs .card span p{
+.blogs .card span p {
     color: var(--text-color);
     font-size: 20px;
 }
 
-.blogs .card .hr{
+.blogs .card .hr {
     background-color: #4E555F;
     width: 100%;
     height: 2px;
@@ -929,14 +930,14 @@ nav .call-flex i {
 }
 
 
-.blogs .card h2{
+.blogs .card h2 {
     color: var(--txt-color1);
     font-size: 27px;
     font-family: var(--main-font-family);
     font-weight: 400;
 }
 
-.blogs  .card p{
+.blogs .card p {
     color: var(--txt-color1);
     font-size: 20px;
     line-height: 32px;
@@ -944,10 +945,40 @@ nav .call-flex i {
     margin-bottom: 20px;
 }
 
-.blogs .card a{
+.blogs .card a {
     color: var(--text-color);
     font-size: 21px;
     line-height: 35px;
 }
 
 /* ##################################### Recent Blogs  page ########################################  */
+
+.footer{
+    background-image: url(../imgs/footer-imgs/for-footer.png);
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+}
+
+footer .footer-text{
+    display: flex;
+    padding: 40px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer-text h2{
+    font-weight: 400;
+    font-family: var(--main-font-family);
+    font-size: 55px;
+    color: var(--txt-color1);
+    margin-right: 25px;
+}
+
+footer .footer-text #icon-img{
+    margin-left: 20px;
+}
+
+footer .footer-text #img {
+    transform: rotateY(180deg);
+}
