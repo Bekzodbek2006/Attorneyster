@@ -527,13 +527,13 @@ nav .call-flex i {
     width: 1400px;
     margin-left: auto;
     margin-right: auto;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 
 
 .client-page .client-comments{
-    width: 250px;
+    width: 300px;
     height: 290px;
     padding: 20px;
     text-align:left;
@@ -572,7 +572,7 @@ nav .call-flex i {
 .client-page .client-comments1{
     position: relative;
     top: -100px;
-    width: 250px;
+    width: 300px;
     height: 290px;
     padding: 20px;
     text-align:left;
@@ -648,7 +648,7 @@ nav .call-flex i {
 .experienced-page .experienced-imgs{
     position: relative;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 0px 40px;
 }
 
@@ -667,5 +667,28 @@ nav .call-flex i {
 
 /* ##################################### Experienced  page ########################################   */
 /* ##################################### Expert law  page ########################################  */
+.expert-law-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 30px;
+    color: var(--txt-color1);
+}
+.expert-law-page .text-left{
+    width: 400px;
+}
 
+/* right */
+
+.expert-law-page .text-right{
+    width: 600px;
+    background-color: #fff;
+    padding: 40px;
+}
+
+.expert-law-page .text-right .border-div{
+    color: black ;
+    padding: 60px 40px;
+    border: 10px solid #D7D7D7;
+}
+/* right */
 /* ##################################### Expert law  page ########################################  */
