@@ -888,7 +888,17 @@ nav .call-flex i {
 }
 
 .blog-page .blog-div .blog-text a{
-    
+    color: var(--text-color);
+    font-size: 22px;
+    line-height: 35px;
+}
+
+.blog-page .hr{
+    background-color: #4E555F;
+    width: 100%;
+    height: 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* ##################################### Recent Blogs  page ########################################  */
