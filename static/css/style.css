@@ -639,8 +639,14 @@ nav .call-flex i {
     margin-bottom: 40px;
 }
 
+.experienced-page .experienced-imgs #social-madiea-icons{
+    position: absolute;
+    left: 646px;
+    top: 397px;
+}
 
 .experienced-page .experienced-imgs{
+    position: relative;
     display: flex;
     justify-content: space-around;
     padding: 0px 40px;
