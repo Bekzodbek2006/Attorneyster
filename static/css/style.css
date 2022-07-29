@@ -120,13 +120,12 @@ nav .call-flex {
 }
 
 nav .call-flex span {
-    text-align: left;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
 nav .call-flex span p {
     font-size: 18px;
-    margin-bottom: -15px;
+    margin-bottom: 5px;
     color: var(--text-color);
 }
 
@@ -541,7 +540,7 @@ nav .call-flex i {
     border-radius: 1px 1px 1px 40px;
 }
 
-.client-page .commetns .client-comments p{
+.client-page .commetns .client-comments #p-text{
     margin-top: 40px;
     color: var(--txt-color1);
 }
@@ -563,7 +562,7 @@ nav .call-flex i {
 }
 
 
-.client-page .commetns .clients-name h5, p{
+.client-page .commetns .clients-name h5, #p{
     position: relative;
     top: -30px;
     left: 10px;
@@ -580,14 +579,14 @@ nav .call-flex i {
     border-radius: 40px 1px 1px 1px;
 }
 
-.client-page .commetns .clients-name1 h5, p{
+.client-page .commetns .clients-name1 h5, #p{
     position: relative;
     top: -30px;
     left: 10px;
 }
 
 
-.client-page .commetns .client-comments1 p{
+.client-page .commetns .client-comments1 #p-text{
     margin-top: 40px;
     color: var(--txt-color1);
 }
@@ -673,9 +672,39 @@ nav .call-flex i {
     padding: 120px 30px;
     color: var(--txt-color1);
 }
+/* left */
 .expert-law-page .text-left{
-    width: 400px;
+    width: 600px;
 }
+
+.expert-law-page .text-left h3{
+    font-size: 45px;
+    line-height: 55px;
+    font-family: var(--main-font-family);
+    font-weight: 400;
+}
+
+.expert-law-page .text-left img{
+    margin: 30px 0px 65px 0px;
+}
+
+.expert-law-page .text-left p{
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 100px;
+}
+
+.expert-law-page .text-left a{
+    text-decoration: none;
+    color: black;
+    padding: 35px 77px;
+    background-color: var(--text-color);
+    font-size: 25px;
+    line-height: 34px;
+}
+
+/* left */
+
 
 /* right */
 
