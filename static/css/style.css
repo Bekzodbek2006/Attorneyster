@@ -617,6 +617,45 @@ nav .call-flex i {
 /* ##################################### Client page ########################################  */
 /* ##################################### Experienced  page ########################################   */
 .experienced-page{
+    padding: 100px 0px;
     background-color: #fff;
+    text-align: center;
+    font-family: var(--main-font-family);
 }
+
+.experienced-page h2{
+    line-height: 50px;
+    font-size: 45px;
+    font-weight: 400;
+    width: 693px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.experienced-page #img{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+.experienced-page .experienced-imgs{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 40px;
+}
+
+.experienced-page .experienced-imgs h3{
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+.experienced-page .experienced-imgs span{
+    color: var(--text-color);
+    font-family: sans-serif;
+}
+
 /* ##################################### Experienced  page ########################################   */
