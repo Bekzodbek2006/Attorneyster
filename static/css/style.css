@@ -710,6 +710,7 @@ nav .call-flex i {
 
 .expert-law-page .text-right{
     width: 600px;
+    height: 480px;
     background-color: #fff;
     padding: 40px;
 }
@@ -762,3 +763,57 @@ nav .call-flex i {
 
 /* right */
 /* ##################################### Expert law  page ########################################  */
+
+/* ##################################### contact us  page ######################################## */
+#contact{
+    padding: 100px 20px;
+    background-image: url(../imgs/lib.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contact #form{
+    width: 1300px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:var(--container-bgc);
+    padding: 80px 100px;
+    text-align: center;
+}
+
+#contact #form input{
+    width: 500px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom:2px solid #3B434E ;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 20px;
+    color: #fff ;
+}
+
+
+#contact #form textarea{
+    height: 107px;
+    width: 1030px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom:2px solid #3B434E ;
+    font-size: 25px;
+    color: #fff ;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+#contact #form button{
+    background-color: #fff;
+    padding: 20px 40px;
+    line-height: 20px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+/* ##################################### contact us  page ######################################## */
