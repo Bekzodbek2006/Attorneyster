@@ -273,6 +273,21 @@ nav .call-flex i {
     margin-top: 55px;
 }
 
+.attorney-card .card-left #right{
+    margin-left: 20px;
+}
+
+.attorney-card .card-left #right .year{
+    line-height: 28px;
+    font-size: 22px;
+}
+
+.attorney-card .card-left #right .p{
+    line-height: 28px;
+    font-size: 22px;
+}
+
+
 .attorney-card .card-left{
     background-color: #3B434E;
     width: 300px;
