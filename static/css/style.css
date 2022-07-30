@@ -300,6 +300,7 @@ nav .call-flex i {
 }
 
 
+
 .explore-page .explore-card {
     max-width: 1300px;
     margin-top: 60px;
@@ -462,6 +463,15 @@ nav .call-flex i {
     margin-right: auto;
     margin-top: 50px;
 }
+
+.lawyers-page .laweryer-right-text .percent #percentage-div{
+    width: 75%;
+    background-color: var(--text-color);
+    height: 5px;
+    margin-top: 10px;
+}
+
+
 
 .lawyers-page .laweryer-right-text .lawer-text #p {
     margin-top: 50px;
@@ -636,8 +646,16 @@ nav .call-flex i {
 
 .experienced-page .experienced-imgs #social-madiea-icons {
     position: absolute;
-    left: 646px;
-    top: 397px;
+    background-color: #fff;
+    padding: 20px 40px;
+    left: 632px;
+    top: 398px;
+}
+
+.experienced-page .experienced-imgs #social-madiea-icons a{
+    color: black;
+    padding: 0px 8px;
+    font-size: 22px;
 }
 
 .experienced-page .experienced-imgs {
@@ -694,7 +712,7 @@ nav .call-flex i {
 .expert-law-page .text-left a {
     text-decoration: none;
     color: black;
-    padding: 35px 77px;
+    padding: 26px 60px;
     background-color: var(--text-color);
     font-size: 25px;
     line-height: 34px;
