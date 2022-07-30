@@ -333,12 +333,6 @@ nav .call-flex i {
     color: var(--txt-color1);
 }
 
-.explore-page .explore-card .card .hr {
-    margin-top: 20px;
-    background-color: var(--hr-color);
-    height: 2px;
-    margin-bottom: 40px;
-}
 
 .explore-page .explore-card .card .card-foot {
     display: flex;
@@ -872,13 +866,7 @@ nav .call-flex i {
     font-size: 45px;
 }
 
-.blog-page .blog-div .blog-text .hr {
-    background-color: #4E555F;
-    width: 100%;
-    height: 2px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+
 
 .blog-page .blog-div .blog-text p {
     color: var(--txt-color1);
@@ -895,13 +883,7 @@ nav .call-flex i {
     line-height: 35px;
 }
 
-.blog-page .hr {
-    background-color: #4E555F;
-    width: 100%;
-    height: 2px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+
 
 .blogs {
     display: flex;
@@ -921,13 +903,6 @@ nav .call-flex i {
     font-size: 20px;
 }
 
-.blogs .card .hr {
-    background-color: #4E555F;
-    width: 100%;
-    height: 2px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
 
 
 .blogs .card h2 {
@@ -1000,13 +975,7 @@ footer .footer-flex .quick-link h3{
     font-weight: 400;
 }
 
-footer .footer-flex .quick-link  .hr{
-    background-color: #4E555F;
-    width: 100%;
-    height: 2px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+
 
 footer .footer-flex .quick-link .flex{
     display: flex;
@@ -1065,9 +1034,10 @@ footer .con .top{
 }
 .footer-end .flex{
     display: flex;
+    justify-content: space-between;
 }
 
-.footer-end .hr{
+.hr{
     background-color: #4E555F;
     width: 100%;
     height: 2px;
@@ -1075,12 +1045,30 @@ footer .con .top{
     margin-bottom: 20px;
 }
 
-.footer-end .span{
+footer .footer-end .span{
     width: 1000px;
 }
 
-.footer-end .span .color{
+footer .footer-end  .color{
     color: var(--text-color);
+    margin-left: 5px;
+}
+
+footer .footer-end .flex #flex{
+    display: flex;
+}
+
+footer .footer-end #flex span{
+    margin-right: 10px ;
+}
+
+footer .footer-end #flex i{
+    margin-right: 10px ;
+}
+
+footer .footer-end #flex a{
+    text-decoration: none;
+    color: #fff;
 }
 
 /* ##################################### footer  page ########################################  */
